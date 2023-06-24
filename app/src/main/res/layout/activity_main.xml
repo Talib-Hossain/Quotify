@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="QUOTIFY"
+        android:text="@string/quotify"
         android:fontFamily="@font/montserrat_semibold"
         android:textAlignment="center"
         android:textSize="28sp"
@@ -21,7 +21,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
-    
+
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
@@ -81,7 +81,7 @@
             android:layout_weight="1"
             android:drawableStart="@drawable/left_arrow"
             android:drawableTint="#80FFFFFF"
-            android:text="PREVIOUS"
+            android:text="@string/previous"
             android:onClick="onPrevious"
             android:textColor="#80FFFFFF"
             android:textSize="18sp"/>
@@ -93,13 +93,13 @@
             android:layout_weight="1"
             android:drawableEnd="@drawable/right_arrow"
             android:drawableTint="#80FFFFFF"
-            android:text="NEXT"
+            android:text="@string/next"
             android:onClick="onNext"
             android:textAlignment="textEnd"
             android:textColor="#80FFFFFF"
             android:textSize="18sp"/>
     </LinearLayout>
-    
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton"
         android:onClick="onShare"
