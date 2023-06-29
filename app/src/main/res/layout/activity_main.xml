@@ -16,7 +16,7 @@
         android:text="@string/quotify"
         android:fontFamily="@font/montserrat_semibold"
         android:textAlignment="center"
-        android:textSize="28sp"
+        android:textSize="38sp"
         android:textColor="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
