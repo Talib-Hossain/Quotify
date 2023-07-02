@@ -50,7 +50,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/montserrat_semibold"
             android:paddingStart="10dp"
-            android:text="Genius is one percent inspiration and ninety-nine percent perspiration."
+            android:text="@string/genius_is_one_percent_inspiration_and_ninety_nine_percent_perspiration"
             android:textColor="#454545"
             android:textSize="24sp" />
 
@@ -60,7 +60,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:paddingStart="10dp"
-            android:text="Bruce Wayne"
+            android:text="@string/bruce_wayne"
             android:fontFamily="@font/montserrat_medium"
             android:textColor="#454545"
             android:textSize="20sp"/>
