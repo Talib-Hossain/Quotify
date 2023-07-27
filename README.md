@@ -1,5 +1,6 @@
 # Quotify
-Quote Application using Android Architecture Components
+Quote Application.
 # Tech Used
 * Kotlin
 * XML
+* Android Architecture Components
