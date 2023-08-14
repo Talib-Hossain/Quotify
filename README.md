@@ -1,5 +1,5 @@
 # Quotify
-Quote Application.
+Quote Application MVVM.
 # Tech Used
 * Kotlin
 * XML
